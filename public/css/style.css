@@ -1,0 +1,38 @@
+body{
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    
+}
+
+.slide-title{
+    font-family: 'Mongolian Baiti','Palatino','Bodoni 72',sans-serif;
+    font-weight: bold;
+}
+
+/* ページ内リンク位置調整用 */
+a.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+/* portfolio背景用 */
+.back-portfolio{
+background-image: url('../img/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.about-bg{
+    background-image: url('../img/about-bg4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.portfolio-bg{
+background-image: url('../img/slide/slide3-pc');
+}
