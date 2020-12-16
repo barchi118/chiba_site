@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="{{ asset('css/top.css') }}">
 
 
+
   <!-- icon -->
   <link rel="shortcut icon" href="{{ asset('images/icon.png') }}" />
   <!-- jquery -->
@@ -33,6 +34,12 @@
   @show
 
   @yield('content')
-
+                <!-- Bootstrap core JavaScript -->
+                <script src="{{asset('js/jquery.min.js')}}"></script>
+                <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+                <!-- Plugin JavaScript -->
+                <script src="{{asset('js/jquery.easing.min.js')}}"></script>
+                <!-- Custom scripts for this template -->
+                <script src="{{asset('js/stylish-portfolio.min.js')}}"></script>
 </body>
 </html>
